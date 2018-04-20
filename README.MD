@@ -1,4 +1,4 @@
-###wrapper boost::lockfree::spsc_quque
+### wrapper boost::lockfree::spsc_quque
 
 ```C++
 spsc_queue<int, 3> q(10);	//10 means thread sleep 10 milliseconds. If it's 0, it's lock-free.
